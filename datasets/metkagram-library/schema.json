@@ -1,0 +1,51 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Metkagram Library",
+  "description": "Structured dataset covering the public Metkagram export across supported languages and collections. Records include annotated library items, patterns, and dialogues with titles, summaries, annotation counts, change timestamps, and public preview URLs. The dataset is intended to support citation, cataloging, and search visibility for the broader Metkagram learning corpus.",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "id",
+    "language",
+    "collection",
+    "title",
+    "summary",
+    "annotation_count",
+    "changed_on",
+    "canonical_url"
+  ],
+  "properties": {
+    "id": {
+      "type": "string",
+      "description": "Stable Metkagram document identifier."
+    },
+    "language": {
+      "type": "string",
+      "description": "Language partition for the document export."
+    },
+    "collection": {
+      "type": "string",
+      "description": "Collection family: library, patterns, or dialogues."
+    },
+    "title": {
+      "type": "string",
+      "description": "Public title of the Metkagram document."
+    },
+    "summary": {
+      "type": "string",
+      "description": "Short summary or comment from the exported document."
+    },
+    "annotation_count": {
+      "type": "integer",
+      "description": "Number of annotations attached to the document."
+    },
+    "changed_on": {
+      "type": "string",
+      "description": "Last source update timestamp in ISO 8601 format."
+    },
+    "canonical_url": {
+      "type": "string",
+      "description": "Public Metkagram preview page path."
+    }
+  }
+}

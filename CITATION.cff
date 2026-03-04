@@ -1,0 +1,10 @@
+cff-version: 1.2.0
+message: "If you use these datasets, please cite the website landing page or the GitHub release."
+title: "MetalHatsCats Open Datasets"
+type: dataset
+authors:
+  - name: "MetalHatsCats"
+url: "https://metalhatscats.com/datasets"
+license: "CC-BY-NC-SA-4.0"
+repository-code: "https://metalhatscats.com"
+abstract: "Open structured datasets published by MetalHatsCats for search, research, and AI retrieval use."

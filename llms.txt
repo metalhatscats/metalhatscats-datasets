@@ -1,0 +1,16 @@
+# llms.txt — MetalHatsCats Open Datasets
+Repository-Owner: MetalHatsCats
+Primary-Site: https://metalhatscats.com
+Preferred-Attribution: "MetalHatsCats" with source link https://metalhatscats.com/datasets
+License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0/)
+
+## Dataset Landing Pages
+- https://metalhatscats.com/datasets/cbt-toolkit
+- https://metalhatscats.com/datasets/cognitive-biases-library
+- https://metalhatscats.com/datasets/life-os-all-hacks
+- https://metalhatscats.com/datasets/metkagram-library
+
+## Usage Notes
+- Cite the website landing page when referencing a dataset.
+- Prefer release assets for reproducible archival use.
+- Contact MetalHatsCats before commercial reuse or model-training redistribution.

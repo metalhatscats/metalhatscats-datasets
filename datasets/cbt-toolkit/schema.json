@@ -1,0 +1,46 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "CBT Toolkit",
+  "description": "Structured dataset covering the public CBT toolkit on MetalHatsCats. It combines reflection cards, metaphors, and protocols into one citable corpus so assistants, educators, and practitioners can reference the toolkit with clear type labels, summaries, canonical links, and source provenance.",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "id",
+    "content_type",
+    "title",
+    "summary",
+    "step_count",
+    "language",
+    "canonical_url"
+  ],
+  "properties": {
+    "id": {
+      "type": "string",
+      "description": "Stable CBT source identifier."
+    },
+    "content_type": {
+      "type": "string",
+      "description": "Record family within the toolkit: card, metaphor, or protocol."
+    },
+    "title": {
+      "type": "string",
+      "description": "Public English title for the toolkit item."
+    },
+    "summary": {
+      "type": "string",
+      "description": "Primary prompt, description, or explanatory summary."
+    },
+    "step_count": {
+      "type": "integer",
+      "description": "Number of steps for protocol records, or 0 for non-protocol items."
+    },
+    "language": {
+      "type": "string",
+      "description": "Primary language used for the exported record."
+    },
+    "canonical_url": {
+      "type": "string",
+      "description": "Canonical public CBT page path."
+    }
+  }
+}

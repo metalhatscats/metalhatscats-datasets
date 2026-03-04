@@ -1,0 +1,61 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Life OS All Hacks",
+  "description": "Structured dataset covering the full public Life OS hacks corpus published by MetalHatsCats. Each record links a hack to its zone, practical action, check-in instruction, summary, and canonical page URL so researchers, search systems, and assistants can cite the full Life OS knowledge base with clear provenance.",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "id",
+    "slug",
+    "title",
+    "zone_slug",
+    "zone_title",
+    "what_you_do",
+    "check_in_prompt",
+    "summary",
+    "canonical_url",
+    "updated_at"
+  ],
+  "properties": {
+    "id": {
+      "type": "string",
+      "description": "Stable Life OS source identifier."
+    },
+    "slug": {
+      "type": "string",
+      "description": "Stable Life OS hack slug used in the canonical URL."
+    },
+    "title": {
+      "type": "string",
+      "description": "Human-readable hack title."
+    },
+    "zone_slug": {
+      "type": "string",
+      "description": "Life OS zone slug for the record."
+    },
+    "zone_title": {
+      "type": "string",
+      "description": "Life OS zone title for the record."
+    },
+    "what_you_do": {
+      "type": "string",
+      "description": "Practical action summary from the source record."
+    },
+    "check_in_prompt": {
+      "type": "string",
+      "description": "Check-in instruction tied to the action."
+    },
+    "summary": {
+      "type": "string",
+      "description": "Description or summary used for public understanding."
+    },
+    "canonical_url": {
+      "type": "string",
+      "description": "Canonical public Life OS page path."
+    },
+    "updated_at": {
+      "type": "string",
+      "description": "Latest published or updated timestamp."
+    }
+  }
+}

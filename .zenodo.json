@@ -1,0 +1,34 @@
+{
+  "title": "MetalHatsCats Open Datasets",
+  "upload_type": "dataset",
+  "description": "Open structured datasets published by MetalHatsCats for search visibility, citation, and AI retrieval use.",
+  "creators": [
+    {
+      "name": "MetalHatsCats"
+    }
+  ],
+  "keywords": [
+    "CBT",
+    "therapy tools",
+    "reflection prompts",
+    "mental health",
+    "protocols",
+    "metaphors",
+    "cognitive biases",
+    "behavioral science",
+    "decision making",
+    "heuristics",
+    "mental models",
+    "critical thinking",
+    "Life OS",
+    "growth hacks",
+    "personal systems",
+    "behavior change",
+    "check-ins",
+    "daily routines",
+    "Metkagram",
+    "grammar learning"
+  ],
+  "license": "cc-by-nc-sa-4.0",
+  "access_right": "open"
+}

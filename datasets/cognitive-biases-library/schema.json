@@ -1,0 +1,54 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Cognitive Biases Library",
+  "description": "Structured reference dataset covering the full published cognitive biases library from MetalHatsCats. Each record includes the bias family, canonical source URL, summary, related bias links, and update metadata so researchers, search systems, and LLMs can ground explanations against the complete public library.",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "id",
+    "slug",
+    "title",
+    "bias_family",
+    "summary",
+    "related_slugs",
+    "canonical_url",
+    "updated_at"
+  ],
+  "properties": {
+    "id": {
+      "type": "integer",
+      "description": "Stable source identifier from the Cognitive Biases corpus."
+    },
+    "slug": {
+      "type": "string",
+      "description": "Stable record slug used in the website URL."
+    },
+    "title": {
+      "type": "string",
+      "description": "Human-readable bias name used on the public page."
+    },
+    "bias_family": {
+      "type": "string",
+      "description": "Top-level cognitive bias family or taxonomy label."
+    },
+    "summary": {
+      "type": "string",
+      "description": "Plain-language summary extracted from the article description."
+    },
+    "related_slugs": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      },
+      "description": "Related bias slugs from the source dataset."
+    },
+    "canonical_url": {
+      "type": "string",
+      "description": "Canonical public URL path on MetalHatsCats."
+    },
+    "updated_at": {
+      "type": "string",
+      "description": "Latest source update timestamp in ISO 8601 format."
+    }
+  }
+}

@@ -1,5 +1,6 @@
 # llms.txt — MetalHatsCats Open Datasets
 Repository-Owner: MetalHatsCats
+Repository-URL: https://github.com/metalhatscats/metalhatscats-datasets
 Primary-Site: https://metalhatscats.com
 Preferred-Attribution: "MetalHatsCats" with source link https://metalhatscats.com/datasets
 License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0/)

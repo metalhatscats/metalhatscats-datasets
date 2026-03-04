@@ -6,5 +6,6 @@ authors:
   - name: "MetalHatsCats"
 url: "https://metalhatscats.com/datasets"
 license: "CC-BY-NC-SA-4.0"
-repository-code: "https://metalhatscats.com"
+repository-code: "https://github.com/metalhatscats/metalhatscats-datasets"
+repository-artifact: "https://github.com/metalhatscats/metalhatscats-datasets/releases"
 abstract: "Open structured datasets published by MetalHatsCats for search, research, and AI retrieval use."

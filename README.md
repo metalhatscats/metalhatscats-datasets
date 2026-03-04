@@ -5,6 +5,7 @@ MetalHatsCats publishes structured open datasets to make its knowledge bases mor
 ## Official Source
 
 - Main website: https://metalhatscats.com
+- GitHub repository: https://github.com/metalhatscats/metalhatscats-datasets
 
 This repository is intended to be the public datasets companion to the main MetalHatsCats website. The website remains the canonical human-facing landing surface for dataset explanations and internal linking.
 
@@ -24,6 +25,7 @@ This repository is the open-data layer for that work. It packages selected publi
 ## Project Links
 
 - Main site: https://metalhatscats.com
+- GitHub datasets repository: https://github.com/metalhatscats/metalhatscats-datasets
 - Products overview: https://metalhatscats.com/products
 - Services: https://metalhatscats.com/services
 - Open datasets hub: https://metalhatscats.com/datasets
@@ -34,6 +36,13 @@ This repository is the open-data layer for that work. It packages selected publi
 - `cognitive-biases-library` — The full published cognitive-bias library with families, summaries, related links, and canonical URLs.
 - `life-os-all-hacks` — The full public Life OS hacks corpus with hack actions, zones, summaries, and canonical source links.
 - `metkagram-library` — The full Metkagram export across languages and collections with annotated learning documents and public preview links.
+
+## Release And Versioning Model
+
+- Website dataset pages are the canonical human-readable landing pages.
+- GitHub tags and releases are the archival publication layer for reproducible reuse.
+- Zenodo can archive GitHub releases and mint DOI records without changing dataset URLs.
+- Each release should keep dataset slugs stable and update changelog entries when source content changes materially.
 
 ## Dataset To Product Links
 
@@ -68,7 +77,19 @@ Use the website landing page for human-readable citation:
 
 - https://metalhatscats.com/datasets
 
-For release-based archival citation, use the GitHub release and Zenodo DOI once enabled.
+For release-based archival citation, use the GitHub release in https://github.com/metalhatscats/metalhatscats-datasets/releases and the Zenodo DOI once enabled.
+
+## Repository Structure
+
+```
+datasets
+  <dataset-slug>/
+    README.md
+    dataset.jsonl
+    schema.json
+```
+
+Root-level metadata files provide citation, release, AI-ingestion, and Zenodo support for the full catalog.
 
 ## Licensing
 
